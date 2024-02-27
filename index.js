@@ -1,9 +1,10 @@
-// interface Options{
-//     trim?:boolean,
-//     separate?:'-' | '_',
-//     allow_number?:boolean,
-//     allow_special_characters?:boolean
+// const  Options={
+//     trim:false,
+//     separate:'_',
+//     allow_number:false,
+//     allow_special_characters:false
 // }
+
 
  function getSlugValues(value,options){
     console.log(options?.allow_number ,options?.allow_special_characters, options?.separate,options?.trim)
